@@ -3,11 +3,12 @@ import { InfoPaginaService } from '../../services/info-pagina.service';
 
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class HeaderComponent implements OnInit {
+
+export class AboutComponent implements OnInit {
 
   constructor(public infoPage: InfoPaginaService) { }
 
